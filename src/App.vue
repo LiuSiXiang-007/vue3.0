@@ -5,7 +5,6 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-
     <!-- 这里是典型的图片导入 直接复制进资源文件 然后使用src进行导入 -->
     <img alt="Vue logo" class="logo" src="@/assets/ocean.svg" width="125" height="125" />
     <div class="wrapper">
@@ -15,7 +14,8 @@ import HelloWorld from './components/HelloWorld.vue'
       <div>vue3、ts、element-plus</div>
       <nav>
         <RouterLink to="/">首页</RouterLink>
-        <RouterLink to="/about">Element-Plus</RouterLink>
+        <RouterLink to="/element-plus">Element-Plus</RouterLink>
+        <RouterLink to="/i18n">i18国际化</RouterLink>
       </nav>
     </div>
   </header>
