@@ -1,3 +1,5 @@
+// i18n @describe: 国际化案例
+// Create by LiuSiXiang on 2023/1/7
 <template>
   <main>
     <el-dropdown @command="handleCommand">
@@ -18,10 +20,6 @@
 
   </main>
 </template>
-/**
-*  Create by LiuSiXiang on 2023/1/7
-*  i18n @describe: 国际化案例
-*/
 <script lang="ts" setup name="i18n">
 import { computed } from "@vue/runtime-core";
 import { useStore } from "vuex";

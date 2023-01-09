@@ -18,6 +18,10 @@ const router = createRouter({
       path: '/i18n',
       name: 'i18n',
       component: () => import('../views/i18n.vue')
+    },{
+      path: '/vue-demo',
+      name: 'vue-demo',
+      component: () => import('../views/VueDemo.vue')
     },
   ]
 })
