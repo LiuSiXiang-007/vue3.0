@@ -15,10 +15,11 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">首页</RouterLink>
         <RouterLink to="/element-plus">Element-Plus</RouterLink>
-        i18n国际化还在报错中(功能优先级不高)
+<!--        i18n国际化还在报错中(功能优先级不高)-->
         <!-- <RouterLink to="/i18n">i18国际化</RouterLink>-->
         <RouterLink to="/vue-demo">Vue.js（3）官方文档解读</RouterLink>
-        <RouterLink to="/vue-demo">JavaScript入门</RouterLink>
+        <RouterLink to="/typeScript">TypeScript入门</RouterLink>
+        <RouterLink to="/es6">es6中恶心的点</RouterLink>
       </nav>
     </div>
   </header>

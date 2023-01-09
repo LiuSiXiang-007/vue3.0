@@ -46,6 +46,10 @@
         :height="400"
         fixed
     />
+    <h1>el-image的使用</h1>
+    <div> 标签内部 - :src="imgs" :initial-index="4" fit="cover"</div>
+    <div>script 中 import img01 from '../assets/1673252865392.jpg'; </div>
+    <div>最后在data-》return -》 imgs:img01</div>
   </div>
 </template>
 
@@ -54,6 +58,7 @@
 import { computed, ref } from 'vue'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs';
 import en from 'element-plus/dist/locale/en.mjs';
+import img01 from "@/assets/1673252865392.jpg";
 
 const language = ref('zh-cn');
 const locale = computed(() => (language.value === 'zh-cn' ? zhCn : en));

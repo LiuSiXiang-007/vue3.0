@@ -12,13 +12,14 @@ vue3+vite+element-plus
 
 #### 运行 pnpm dev
 
-# 项目功能：
-
 # a.[TypeScript](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
 #### 它是 JavaScript 的一个超集，主要提供了类型系统和对 ES6 的支持.
 
 [TypeScript 入门教程](https://ts.xcatliu.com/)
+
+[https://drylint.com/TypeScript/TS_%E7%B1%BB%E5%9E%8B.html](https://drylint.com/TypeScript/TS_%E7%B1%BB%E5%9E%8B.html) -- typescript 难点解释版
+
 
 # b.[element-plus](https://element-plus.org/zh-CN/) 的引入以及使用
 

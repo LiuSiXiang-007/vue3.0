@@ -22,6 +22,14 @@ const router = createRouter({
       path: '/vue-demo',
       name: 'vue-demo',
       component: () => import('../views/VueDemo.vue')
+    },{
+      path: '/typeScript',
+      name: 'typeScript',
+      component: () => import('../views/TypeScript.vue')
+    },{
+      path: '/es6',
+      name: 'es6',
+      component: () => import('../views/ES6.vue')
     },
   ]
 })
