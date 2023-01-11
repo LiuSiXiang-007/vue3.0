@@ -29,6 +29,7 @@
     <el-button @click="showInterface">接口类测试</el-button>
     <h2>数组类型</h2>
     <p>「类型 + 方括号」来表示数组</p>
+    <p>类数组（Array-like Object）不是数组类型，比如 arguments、元组(两个不同类型的元素组成的小数组)</p>
     <h2>函数的类型</h2>
     <el-button @click="func">函数测试</el-button>
     <p>不要混淆了 TypeScript 中的 => 和 ES6 中的 =></p>
@@ -42,8 +43,6 @@
     <p>类型断言有两种形式：《 type（string） 》 value 或 value as type（string）</p>
     <h2>高级类型</h2>
     <p>交叉类型（Intersection Types） 将多个类型合并为一个类型。</p>
-    <p></p>
-    <p></p>
   </div>
 </template>
 
@@ -69,7 +68,7 @@ let twoType: number | string;
 interface User {
   age: number,
   name: string,
-  gender?: string|boolean,  // 用？表示可有可无的属性
+  gender?: string|boolean,  // 用？表示可有可无的属性 可选属性的含义是该属性可以不存在
   [propName: string]: any,  // 允许接口有一个任意的(属性名/类型)属性
   readonly id: number,  // 只读属性，声明后不能够被更改的属性
 }

@@ -30,6 +30,10 @@ const router = createRouter({
       path: '/es6',
       name: 'es6',
       component: () => import('../views/ES6.vue')
+    },{
+      path: '/ts_more',
+      name: 'ts_more',
+      component: () => import('../views/TypeScript_More.vue')
     },
   ]
 })
