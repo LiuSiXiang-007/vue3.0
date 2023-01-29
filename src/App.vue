@@ -12,6 +12,7 @@ import { ref } from 'vue';
       <HelloWorld msg="这里是典型的子传父组件" />
       <nav>
         <RouterLink to="/">首页</RouterLink>
+        <RouterLink to="/personView">重要的点总结<el-icon><Apple /></el-icon></RouterLink>
         <RouterLink to="/element-plus">Element-Plus</RouterLink>
 <!--        i18n国际化还在报错中(功能优先级不高)-->
         <!-- <RouterLink to="/i18n">i18国际化</RouterLink>-->
@@ -19,6 +20,7 @@ import { ref } from 'vue';
         <RouterLink to="/vue-note">Vue 3.0官方文档笔记</RouterLink>
         <RouterLink to="/es6">es6中恶心的点</RouterLink>
         <RouterLink to="/typeScript">TypeScript入门</RouterLink>
+        <RouterLink to="/ts_more">TypeScript进阶</RouterLink>
         <RouterLink to="/ts_more">TypeScript进阶</RouterLink>
       </nav>
     </div>
