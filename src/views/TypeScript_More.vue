@@ -192,7 +192,7 @@ function sayHello(person: string): string {
 console.log(sayHello("WangXiang"))
 // 1.函数签名 过更新参数和返回类型直接修改函数签名
 function sayHellos(person: string | string[]): string[]{
-  if (typeof person === 'string' ) return `Hello,${person}!`;
+  if (typeof person === 'string' ) return `Hello,${person}!`
   else return person.map(item => `Hello,${item}!`);
 }
 console.log(sayHellos(["刘德华","鲁智深","新年"]),sayHellos("jia"))
