@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>典型组件</h1>    <a></a> <p></p> <h2></h2>
+    <h2>大屏设计器</h2>
+    <dv-decoration-1 :color="['pink','yellow']" style="width:200px;height:50px;" />
+    <el-button @click="goScreenDesigner">大屏设计器展示页</el-button>
     <h2>毛玻璃</h2>
     <div class="bg">
       <div class="is_filter">整个元素变成毛玻璃</div>
@@ -109,7 +112,11 @@ export default {
       console.log('-------- 上传失败 --------');
       console.log(status);
       console.log('field: ' + field);
-    }
+    },
+    goScreenDesigner(){
+      // 跳转大屏设计器
+      this.$router.push('/ScreenDesigner')
+    },
   }
 }
 

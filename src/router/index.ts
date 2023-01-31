@@ -45,6 +45,10 @@ const router = createRouter({
       path: '/module',
       name: 'module',
       component: () => import('../views/VueModule.vue')
+    },{
+      path: '/screenDesigner',
+      name: 'screenDesigner',
+      component: () => import('../views/ScreenDesigner.vue')
     },
   ]
 })

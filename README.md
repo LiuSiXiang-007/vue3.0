@@ -88,4 +88,16 @@ app.use(ElementPlus)
 ````
 即可开始使用！
 
-# c.vue 3.0
+# c.VUE&组件
+
+#### 大屏设计器  - DataV
+
+介绍：免费开源、开箱即用的Vue 大屏数据展示组件库,[项目地址](http://datav.jiaminghi.com/)
+
+#### 毛玻璃效果
+
+通过css效果实现 - filter: blur( x px) 或者 backdrop-filter: blur( x px)
+
+#### 图片滑块验证
+
+基于vue-drag-verify二次开发的vue组件，[项目地址](https://github.com/yimijianfang/vue-drag-verify) [演示地址](https://yimijianfang.github.io/vue-drag-verify/#/)

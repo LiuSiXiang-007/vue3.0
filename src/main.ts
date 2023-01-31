@@ -9,7 +9,8 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'    // element-plus 全局样式
 import * as Icons from '@element-plus/icons-vue'    // element-plus 图标
 import i18n from "@/i18n";  // 国际化
-
+// import dataV from '@jiaminghi/data-view'  // 大屏设计器组件
+import DataVVue3 from '@kjgl77/datav-vue3' // DataV vue3优化版
 
 import './assets/main.css'
 
@@ -24,6 +25,8 @@ Object.keys(Icons).forEach(key => {
 
 app.use(i18n);
 app.use(ElementPlus)
+// app.use(dataV)
+app.use(DataVVue3)
 app.use(createPinia())
 // app..use(store)
 
