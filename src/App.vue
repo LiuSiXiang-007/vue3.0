@@ -17,7 +17,8 @@
           <RouterLink to="/typeScript">TypeScript入门</RouterLink>
           <RouterLink to="/ts_more">TypeScript进阶</RouterLink>
           <RouterLink to="/module">常用的组件</RouterLink>
-          <RouterLink to="/screenDesigner">大屏设计器</RouterLink>
+          <RouterLink to="/screenDesigner">大屏数据展示模板</RouterLink>
+          <RouterLink to="/Throttling&anti-shaking">节流/防抖</RouterLink>
         </nav>
       </div>
     </header>

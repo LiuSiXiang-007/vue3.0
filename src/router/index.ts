@@ -49,6 +49,10 @@ const router = createRouter({
       path: '/screenDesigner',
       name: 'screenDesigner',
       component: () => import('../views/ScreenDesigner.vue')
+    },{
+      path: '/Throttling&anti-shaking',
+      name: 'throttling&anti-shaking',
+      component: () => import('../views/Throttling&anti-shaking.vue')
     },
   ]
 })
