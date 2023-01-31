@@ -2,7 +2,8 @@
   <div>
     <h1>典型组件</h1>    <a></a> <p></p> <h2></h2>
     <h2>大屏设计器</h2>
-    <dv-decoration-1 :color="['pink','yellow']" style="width:200px;height:50px;" />
+    <dv-decoration-2 :color="['pink','yellow']" style="width:200px;height:50px;" />
+    <el-link href="https://datav-vue3.netlify.app/Guide/index.html" target="_blank" type="primary">大屏展示文档地址</el-link>
     <el-button @click="goScreenDesigner">大屏设计器展示页</el-button>
     <h2>毛玻璃</h2>
     <div class="bg">

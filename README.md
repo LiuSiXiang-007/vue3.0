@@ -101,3 +101,5 @@ app.use(ElementPlus)
 #### 图片滑块验证
 
 基于vue-drag-verify二次开发的vue组件，[项目地址](https://github.com/yimijianfang/vue-drag-verify) [演示地址](https://yimijianfang.github.io/vue-drag-verify/#/)
+
+#### 在vue3+vite中实现改功能会报错，vue3推荐-[DataV重置版](https://datav-vue3.netlify.app/Guide/index.html)

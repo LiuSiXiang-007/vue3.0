@@ -10,7 +10,7 @@
           <RouterLink to="/personView">重要的点总结<el-icon><Apple /></el-icon></RouterLink>
           <RouterLink to="/element-plus">Element-Plus</RouterLink>
 
-          <!-- <RouterLink to="/i18n">i18国际化</RouterLink> <!--        i18n国际化还在报错中(功能优先级不高)-->-->
+          <!-- <RouterLink to="/i18n">i18国际化</RouterLink> i18n国际化还在报错中(功能优先级不高)-->
           <RouterLink to="/vue-demo">Vue 3.0开发前学习</RouterLink>
           <RouterLink to="/vue-note">Vue 3.0官方文档笔记</RouterLink>
           <RouterLink to="/es6">es6中恶心的点</RouterLink>
@@ -55,7 +55,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
 }
 
 nav a.router-link-exact-active {
