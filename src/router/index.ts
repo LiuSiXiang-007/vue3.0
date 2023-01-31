@@ -41,6 +41,10 @@ const router = createRouter({
       path: '/ts_more',
       name: 'ts_more',
       component: () => import('../views/TypeScript_More.vue')
+    },{
+      path: '/module',
+      name: 'module',
+      component: () => import('../views/VueModule.vue')
     },
   ]
 })

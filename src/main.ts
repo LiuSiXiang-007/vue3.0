@@ -11,7 +11,6 @@ import * as Icons from '@element-plus/icons-vue'    // element-plus 图标
 import i18n from "@/i18n";  // 国际化
 
 
-
 import './assets/main.css'
 
 const app = createApp(App)

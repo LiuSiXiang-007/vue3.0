@@ -21,7 +21,7 @@ import { ref } from 'vue';
         <RouterLink to="/es6">es6中恶心的点</RouterLink>
         <RouterLink to="/typeScript">TypeScript入门</RouterLink>
         <RouterLink to="/ts_more">TypeScript进阶</RouterLink>
-        <RouterLink to="/ts_more">TypeScript进阶</RouterLink>
+        <RouterLink to="/module">常用的组件</RouterLink>
       </nav>
     </div>
   </header>
